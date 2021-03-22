@@ -18,7 +18,7 @@ namespace AIE_GameStates_01
         public override void Update()
         {
             cooldownTimer -= Raylib.GetFrameTime();
-            if(cooldownTimer < 0)
+            if(cooldownTimer < 0.1f)
             {
                 program.ChangeGameState(new MenuScreen(program));
             }

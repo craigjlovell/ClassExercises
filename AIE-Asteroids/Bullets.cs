@@ -35,7 +35,7 @@ namespace AIE_Asteroids
         {
             Random rand = new Random();
             Color col = new Color(
-               rand.Next(0, 255), // rand red value
+               rand.Next(0, 255), // random red value
                rand.Next(0, 255), // random green value
                rand.Next(0, 255), // random blue value
                255); // alpha
